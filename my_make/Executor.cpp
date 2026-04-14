@@ -39,7 +39,6 @@ void Executor::execute(std::unordered_map<std::string, Node>& nodes) {
                 }
                 continue;
             }
-
             long long target_time = get_mtime(current_file);
             bool needs_update = (target_time == -1);
 
